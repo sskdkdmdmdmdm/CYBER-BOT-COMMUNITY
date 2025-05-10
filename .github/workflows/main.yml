@@ -1,7 +1,4 @@
-name: Node.js CI
-
-on:
-  workflow_dispatch:
+workflow_dispatch:
   
 
 jobs:
@@ -24,3 +21,4 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm start
+    
